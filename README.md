@@ -1,5 +1,5 @@
 # What Is This?
-A simple AWS lambda function which will run a quick audit Ravello VMs.
+A simple AWS lambda function which will run a quick audit of Ravello VMs.
 
 
 # What Are The Pre-Reqs?
