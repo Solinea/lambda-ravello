@@ -1,3 +1,7 @@
+# What Is This?
+A simple AWS lambda function which will run a quick audit Ravello VMs.
+
+
 # What Are The Pre-Reqs?
 [lambda-uploader][1] - A utility that helps package and upload Python lambda functions to AWS
 
