@@ -140,4 +140,4 @@ ENV/
 .ropeproject
 
 .idea
-!/audit/__init__.py
+!/timer/audit/__init__.py

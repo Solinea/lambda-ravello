@@ -1,6 +1,6 @@
 {
   "name": "audit",
-  "description": "Count of all running VMs",
+  "description": "Timer-based count of all running VMs",
   "region": "us-west-2",
   "handler": "audit.handler",
   "role": "arn:aws:iam::882769476227:role/lambda_role",
@@ -9,5 +9,5 @@
     "/*.pyc"
   ],
   "timeout": 30,
-  "memory": 512
+  "memory": 128
 }

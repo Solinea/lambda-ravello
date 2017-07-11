@@ -86,7 +86,8 @@ def handler(event, context):
             if active:
                 msg = "Lab: %s, Owner: %s, VMs: %d" % (item["name"], item["owner"], active)
                 post_to_slack(msg)
-    post_to_slack("Ravello total active VMs: %d"%total_active)
+    if total_active:
+        post_to_slack("Ravello total active VMs: %d"%total_active)
 
 # Uncomment to debug
 # handler("", "")

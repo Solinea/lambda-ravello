@@ -1,0 +1,13 @@
+{
+  "name": "ravello_query",
+  "description": "Count all running VMs",
+  "region": "us-west-2",
+  "handler": "ravello_query.handler",
+  "role": "arn:aws:iam::882769476227:role/lambda_role",
+  "requirements": [],
+  "ignore": [
+    "/*.pyc"
+  ],
+  "timeout": 30,
+  "memory": 128
+}
